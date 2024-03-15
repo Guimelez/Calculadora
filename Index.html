@@ -1,1 +1,32 @@
-<h1>Calculadora</h1>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Página do Administrador</title>
+  </head>
+  <body>
+    <h1>Bem-vindo à Página do Administrador</h1>
+      <button onclick="loginAsAdmin()">Acessar como Administrador</button>
+
+        <div id="adminPanel" style="display: none;">
+            <!-- Conteúdo e funcionalidades para o administrador -->
+                <p>Aqui estão as ferramentas de administração!</p>
+                  </div>
+
+                    <script src="seu_script.js"></script>
+                    </body>
+                    </html>
+                    ```
+
+                    JavaScript (seu_script.js):
+                    ```javascript
+                    function loginAsAdmin() {
+                      var senha = prompt("Digite a senha de administrador:");
+
+                        if (senha === "galeto") {
+                            document.getElementById("adminPanel").style.display = "block";
+                              } else {
+                                  alert("Senha incorreta. Acesso negado.");
+                                    }
+                                    }
+                                    
